@@ -1,0 +1,58 @@
+
+/*Owl Carousel*/
+.owl-theme .owl-nav {
+    display:none !important;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 2;
+display: flex;
+justify-content: center;
+padding: 0;
+margin-right: 15%;
+margin-bottom: 1rem;
+margin-left: 15%;
+list-style: none;
+}
+
+.img-post {
+    border-radius: 8px;
+}
+
+.img-servicos {
+    border-radius: 100px;
+}
+
+.img-diferenciais {
+    border-radius: 8px;
+    box-shadow: 6px 6px 0px 1px rgb(0 0 0 / 15%) !important; 
+}
+
+/*Iframe responsivo*/
+.video-institucional {
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px 1px rgb(0 0 0 / 35%) !important; 
+}
+
+/*Rodapé responsivo*/
+@media (max-width: 540px) {
+    .brand, .atratis {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .redes, .endereco, .contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        text-align: center;
+    }
+        
+}
